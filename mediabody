@@ -1,0 +1,42 @@
+@media (max-width: px) {
+  .header {
+    &__dropdown {
+      &__toggle {
+      }
+      &__content {
+        &__item {
+        }
+      }
+    }
+    &__logo {
+      &__item {
+      }
+    }
+    &__nav {
+      &__item {
+      }
+    }
+    &__credentials {
+      &__item {
+      }
+    }
+  }
+  .main {
+    &__text {
+      &__title {
+      }
+      &__description {
+      }
+      &__icons {
+      }
+    }
+    &__services {
+      &__title {
+      }
+      &__item {
+        .main__services__item__title {
+        }
+      }
+    }
+  }
+}

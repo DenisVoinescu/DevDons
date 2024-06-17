@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header__dropdown">
+        <button class="header__dropdown__toggle">Menu</button>
+        <div class="header__dropdown__content hidden">
+          <a href="" class="header__dropdown__content__item">Sign in</a>
+          <a href="" class="header__dropdown__content__item">Register</a>
+          <a href="" class="header__dropdown__content__item">Contact</a>
+          <a href="" class="header__dropdown__content__item">Our team</a>
+          <a href="" class="header__dropdown__content__item">Pricing</a>
+        </div>
+      </div>
+
+      <div class="header__logo">
+        <img src="logo.png" alt="Logo" class="header__logo__item" />
+      </div>
+      <div class="header__nav">
+        <a href="" class="header__nav__item">Contact</a>
+        <a href="" class="header__nav__item">Pricing</a>
+        <a href="" class="header__nav__item">Our team</a>
+      </div>
+      <div class="header__credentials">
+        <a href="" class="header__credentials__item">Sign in</a>
+        <a href="" class="header__credentials__item">Register</a>
+      </div>
+    </div>
+    <div class="main">
+      <div class="main__text">
+        <div class="main__text__title">
+          <span>WHO</span> <span>ARE</span> <span>WE?</span>
+        </div>
+        <div class="main__text__description">
+          Based in the picturesque city of Brasov, our developer team boasts
+          over a decade of combined experience in software development and IT
+          solutions. We have successfully delivered numerous projects across
+          various industries, including e-commerce, healthcare, and fintech. Our
+          portfolio highlights innovative solutions such as an AI-driven
+          e-commerce platform and a comprehensive telehealth app. Committed to
+          excellence, our team thrives on agile methodologies, ensuring timely
+          and efficient project execution.
+        </div>
+        <div class="main__text__icons">
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/2907/2907497.png"
+            alt=""
+            class="main__text__icons__item item1"
+          />
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/978/978012.png"
+            alt=""
+            class="main__text__icons__item item2"
+          />
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/10398/10398024.png"
+            alt=""
+            class="main__text__icons__item item3"
+          />
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/4672/4672328.png"
+            alt=""
+            class="main__text__icons__item item4"
+          />
+        </div>
+      </div>
+      <div class="main__services__title">
+        <h1>We offer services such as...</h1>
+      </div>
+      <div class="main__services">
+        <div class="main__services__item" id="item1">
+          <h1 class="main__services__item__title">Web development</h1>
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/8994/8994317.png"
+            alt=""
+          />
+        </div>
+        <div class="main__services__item" id="item2">
+          <h1 class="main__services__item__title">Mobile development</h1>
+
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/545/545245.png"
+            alt=""
+          />
+        </div>
+        <div class="main__services__item" id="item3">
+          <h1 class="main__services__item__title">Desktop development</h1>
+
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/4919/4919532.png"
+            alt=""
+          />
+        </div>
+        <div class="main__services__item" id="item4">
+          <h1 class="main__services__item__title">Game development</h1>
+
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/2029/2029520.png"
+            alt=""
+          />
+        </div>
+        <div class="main__services__item" id="item5">
+          <h1 class="main__services__item__title">Software testing</h1>
+
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/3913/3913448.png"
+            alt=""
+          />
+        </div>
+        <div class="main__services__item" id="item6">
+          <h1 class="main__services__item__title">Maintenance & support</h1>
+
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/4233/4233839.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    const button = document.querySelector(".header__dropdown__toggle");
+    const dropdown = document.querySelector(".header__dropdown__content");
+    button.addEventListener("click", function (event) {
+      if (dropdown.classList.contains("hidden")) {
+        dropdown.classList.remove("hidden");
+      } else {
+        dropdown.classList.add("hidden");
+      }
+    });
+  </script>
+</html>
